@@ -5,10 +5,10 @@ window.onload = function () {
             console.log(invoice);
             console.log(window);
             var opt = {
-                margin: 0.3,
+                margin: 1,
                 filename: 'myfile.pdf',
-                image: { type: 'jpeg', quality: 1 },
-                html2canvas: { scale: 1 },
+                image: { type: 'jpeg', quality: 15 },
+                html2canvas: { scale: 2 },
                 jsPDF: { unit: 'mm', format: 'letter', orientation: 'portrait' }
             };
             html2pdf().from(invoice).set(opt).save();
