@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>SandySoft Resume Builder</title>
+   <link rel="icon" type="image/svg" href="images/favicon.svg">
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <center>
+      <div class="heading">
+         <h1><i class="fa-brands fa-skyatlas"></i>SandySoft</h1>
+      </div>
+   <h2>Resume Bulider</h2>
+   <form action="resultindex.html">
+      <div><input type="text" id="txt" placeholder="Name"></div>
+      <div><input type="email" id="email" placeholder="Email"></div>
+      <div><input id="number" placeholder="Phone Number" type="text" name="country_code" title="Error Message" pattern="[1-9]{1}[0-9]{9}"> </div>
+      <div><input id="age" max='100' min='2' type="number" placeholder="Age"></div>
+      <div><label class="image-text">Education</label></div>
+      <div><input type="text" id="edu1" placeholder="High School / Degree"></div>
+      <div><input type="text" id="edu2" placeholder="Highest Education Degree"></div>
+      <div><input type="text" id="Designation" placeholder="Designation"></div>
+      <div class="address">
+         <label class="image-text">Address</label>
+         <li>
+            <input type="text" id="address1" placeholder="Address Line 1">
+         </li>
+         <li>
+            <input type="text" id="address2" placeholder="Address Line 2">
+         </li>
+         <li>
+            <input type="text" id="address3" placeholder="Location">
+         </li>
+      </div>
+      <div>
+         <textarea name="" id="objective" maxlength="310" placeholder="Objective" cols="24" rows="14"></textarea>
+      </div>
+      <div>
+         <div>
+            <label class="image-text" id="planguages">Programming Languages Known</label>
+         </div>
+         <div>
+            <input id="lang1" name="planguages" type="text" placeholder="Language 1">
+         </div>
+         <div>
+            <input id="lang2" name="planguages" type="text" placeholder="Language 2">
+         </div>
+         <div>
+            <input id="lang3" name="planguages" type="text" placeholder="Language 3">
+         </div>
+      </div>
+      <div>
+         <div><label class="image-text">Hobbies</label></div>
+         <div>
+            <div>
+               <input id="hobby1" type="text" placeholder="Hobby 1">
+            </div>
+            <div>
+               <input id="hobby2" type="text" placeholder="Hobby 2">
+            </div>
+         </div>
+      </div>
+      <div>
+         <textarea  id="Projects" maxlength="310" placeholder="Projects Done" cols="24" rows="14"></textarea>
+      </div>
+      <!--
+      <div>
+         <label class="image-text" for="profile">Choose Your Profile Image</label>
+         <div class="container">
+            <input id="image_input" type="file" accept="image/*">
+         </div>
+      </div>
+      -->
+      <div>
+         <button class="btn" type="submit" onclick="generate();">Generate</button>
+         <button class="btn" type="reset">Clear</button>
+      </div>
+   </form>
+   <script src="index.js"></script>
+</center>
+<script src="https://kit.fontawesome.com/8850e3d533.js" crossorigin="anonymous"></script>  
+</body>
+</html>

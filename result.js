@@ -1,0 +1,10 @@
+document.getElementById("result").innerHTML = localStorage.getItem("textvalue");
+document.getElementById("email").innerHTML = localStorage.getItem("email");
+document.getElementById("number").innerHTML = localStorage.getItem("number");
+document.getElementsByClassName("age").innerHTML - localStorage.getItem("age");
+document.getElementById("edu").innerHTML = localStorage.getItem("ed");
+document.getElementById("ad1").innerHTML = localStorage.getItem("ad1");
+document.getElementById("ad2").innerHTML = localStorage.getItem("ad2");
+document.getElementById("ad3").innerHTML = localStorage.getItem("ad3");
+document.getElementById("obj").innerHTML = localStorage.getItem("obj");
+document.getElementById("profile").innerHTML = localStorage.getItem("profile");

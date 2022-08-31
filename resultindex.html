@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SandySoft Resume Page</title>
+    <link rel="icon" type="image/svg" href="images/favicon.svg">
+    <link rel="stylesheet" href="resultstyles.css">
+    <script src="pdf.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.js"></script>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
+    </script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js">
+    </script>
+</head>
+<body>
+    <div class="masterbox" id="resume">
+        <center>
+            <div class="grid">
+                <div class="one">
+                    <div>
+                        <div>
+                            <h3 class="clear" >CONTACT</h3>
+                        </div>
+                        <div class="head-container">
+                            <div  class="head" >
+                                <p class="data" ><i class="fa-solid fa-envelope"></i><sapn id="email">example@gmail.com</sapn></p>
+                            </div>
+                            <div  class="head" >
+                                <p class="data" ><i class="fa-solid fa-phone"></i><span id="number">1234567890</span></p>
+                            </div>
+                            <div  class="head" >
+                                <p class="data" ><i class="fa-solid fa-location-dot"></i><span id="place">Place</span></p>
+                            </div>
+                            <div class="head">
+                                <p class="fix data"><i class="fa-brands fa-linkedin"></i><span id="linked1">https://linkedin.com</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="clear" >MY SKILLS</h3>
+                        <ul>
+                            <li class="clear" >Team Player</li>
+                            <li class="clear" >Good communication Skills</li>
+                            <li class="fix clear">Critical Thinking</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="clear">PROGRAMMING LANGUAGES</h3>
+                        <ul>
+                            <li class="clear" ><span id="lang1">Python</span></li>
+                            <li class="clear" ><span id="lang2">C++</span></li>
+                            <li class="fix clear" ><span id="lang3">JavaScript</span></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="clear">HOBBIES</h3>
+                        <ul>
+                            <li class="clear"><span id="hobby1">lorem</span></li>
+                            <li class="clear" ><span id="hobby2">lorem</span></li>
+                        </ul>
+                    </div>
+                    <h3 class="clear" >ADDRESS</h3>
+                    <ul>
+                        <li id="ad1" class="clear address" >lorem</li>
+                        <li id="ad2" class="clear address" >lorem</li>
+                        <li id="ad3" class="clear address" >lorem</li>
+                    </ul>
+                </div>
+                <div class="two">
+                    <div>
+                        <div class="fix">
+                            <h2 id="name" class="name">Mukunthan A R</h2>
+                            <span id="designation"></span>
+                        </div>
+                        <div class="image" ></div>
+                    </div>
+                    <hr 
+                    border:none;
+                    color="#4d94ff";
+                    class="line";>
+                    <div>
+                        <h2 class="Designation-heading" >SUMMARY</h2>
+                        <p id="obj1" class="para clear" >I am <span id="SumName">Heisenberg</span> from <span id="SumPlace">Chennai</span>.I am a High-achieving college student with an aptitude for Programming and Problem-Solving. Well proficient in <span id="SumLang1">Python</span>, and <span id="SumLang2">C++</span>. Worked on several projects. Excited to work for a Well Reputed Software-Based Company and gain real-world experience.</p>
+                    </div>
+                    <br>
+                    <div>
+                        <h2 class="Designation-heading">EXPERIENCE</h2>
+                        <p class="para clear" >A Hard-working college student with a passion for Programming and Software Development. Has six months of training experience as a junior developer. Eager to take this knowledge of programming and break into being on the Developer side. Trained in Software Developing . Well proficient in <span id="ExpLang1">Python</span> and <span id="ExpLang2">C</span></p>
+                        <br>
+                        <ul>
+                            <li class="clear">Having a proficient knowledge in <span id="Exp2Lang1"></span> could build a requirment from scratch.</li>
+                            <li class="clear">Could build according to client requirment using <span id="Exp2Lang2"></span> with a minimal amount of expert's advice.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="Designation-heading">EDUCATION</h2>
+                        <li class="clear"><span id="edu1">Lorem, ipsum.</span></li>
+                        <li class="clear"><span id="edu2">Lorem, ipsum.</span></li>
+                    </div>
+                    <div>
+                        <h2 class="adjust Designation-heading clear">PROJECT</h2>
+                        <p class="para clear"><span id="Projects">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi in sapiente voluptatem architecto quidem! Tenetur ut odio autem nesciunt doloremque?</span></p>
+                    </div>
+                </div>
+            </div>
+        </center>
+    </div>
+    <div>
+        <button class="btn btn-primary" id="download">Download as pdf</button>
+    </div>
+    <script src="resultindex.js"></script>
+    <script src="https://kit.fontawesome.com/8850e3d533.js" crossorigin="anonymous"></script>
+</body>
+</html>

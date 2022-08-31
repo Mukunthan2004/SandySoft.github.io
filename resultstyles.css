@@ -1,0 +1,107 @@
+body{
+    font-family:  'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 840px;
+}
+.masterbox{
+    width: 100%;
+    
+}
+h3{
+    font-weight: 600;
+    color: white;
+}
+.fix{
+    margin-bottom: 2rem;
+}
+.grid{
+    border: 1px solid grey;
+    display: grid;
+    grid-template-columns: 370px 500px;
+    grid-template-rows: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    border-radius: 4px;
+}
+.one{
+    font-size: 1.3rem;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+.one,.three{
+    background-color: rgb(30, 146, 247);
+}
+.fa-solid,.fa-brands{
+    margin-right: 0.4rem;
+}
+/* Name and designation */
+.name{
+    margin-bottom: 5px;
+}
+.desg{
+    margin-top:0 ;
+}
+.line{
+    width: 100%;
+}
+.image{
+    width: 120px;
+    height: 120px;
+    background:blue;
+    float: right;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+.fix{
+    float: left;
+}
+.Designation-heading{
+    color:#33adff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 560;
+    float: left;
+}
+.para,li{
+    float: left;
+    text-align: left;
+}
+.clear{
+    clear: both;
+}
+.two{
+    margin: 1rem 5rem 1rem 1rem;
+}
+.data{
+    float: left;
+    clear: both;
+    margin:0 0 1rem 1rem;   
+}
+.adjust{
+    margin-bottom: 0;
+}
+@media screen and (max-width:700px) {
+    body{
+        zoom: 25%;
+    }
+}
+@media screen and (max-width:900px) {
+    body{
+        zoom: 60%;
+    }
+}
+.address{
+    list-style: none;
+}
+button{
+    margin:2rem;
+    padding: 0.6rem 3rem;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 1rem;
+}
+button:hover{
+    background: #1aae38;
+    color: white;
+}
+button:active{
+    background:rgb(19, 153, 42);
+}
