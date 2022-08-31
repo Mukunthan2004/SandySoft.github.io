@@ -1,6 +1,8 @@
 body{
     font-family:  'Open Sans', 'Helvetica Neue', sans-serif;
     width: 840px;
+    margin-left:auto;
+    margin-right: auto;
 }
 .masterbox{
     width: 100%;
